@@ -1,0 +1,195 @@
+.login{
+    margin-left: 600%;   
+}
+.brand{
+     font-weight: 900;
+      font-family: "Cinzel", serif;  
+}
+.caro{
+    margin-top: 2%;
+}
+.offer1{
+    margin-left: 10%;
+    width: 80%;
+   height: 400px;
+}
+
+.offer2{
+    
+    margin-left: 10%;
+    width: 80%;
+   height: 500px;
+}
+.ad{
+    height: 600px;
+}
+@media screen and(max-width: 600px){
+     .ad{
+        max-width: 400px;
+     }
+}
+.background{
+   
+    width: 15%;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.abouthead{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: xx-large;
+     background-image: url('https://previews.123rf.com/images/bentchang/bentchang1803/bentchang180301172/97222916-motivation-business-conceptual-word-cloud-for-for-design-wallpaper-texture-or-background-grunge.jpg');
+     padding: 60px;
+     opacity: 0.5;
+     
+}
+.abg{
+    
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: x-large;    
+}
+.aot{
+   
+     cursor: pointer;
+     
+}
+.aboutbg{
+    background: linear-gradient( black 30%, );
+}
+.offerbutton{
+    display: flex;
+    margin-top: 2%;
+    padding: 1%;
+    justify-content: center;
+    border-radius: 50px 10px;
+    column-gap: 50px;
+}
+.bt1{
+    font-weight: 600;
+    background-color: gainsboro;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 7px 7px grey; 
+    /* transition: width 2s, height 2s, transform 2s; */
+}
+/* 
+.bt1:hover{
+    transform: rotate(360deg);
+
+} */
+.bt2{
+    background-color: aliceblue;
+    border-radius:  10px;
+    font-size: x-large;
+    font-weight: 600;
+    box-shadow: 7px 7px grey;
+}
+
+.bt3{
+    background-color: #789731;
+    border-radius:  10px;;
+    font-size: x-large;
+    font-weight: 600;
+    box-shadow: 7px 7px grey;
+    
+}
+
+.bt4{
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    box-shadow: 7px 7px grey;
+
+}
+
+
+.bt5{
+    background-color: #002366;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    box-shadow: 7px 7px grey;
+   
+     
+}
+
+
+.homecart{
+   margin-inline-start: 10%;
+   margin-inline-end: 10%;
+
+    
+}
+h4{
+    margin-inline-start: 8%;
+    font-weight: 900;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+.offercard{
+    display: flex;
+    padding: 2rem 2rem 2rem;
+    justify-content: center;
+    cursor: pointer;
+     font-weight: 900;
+      column-gap: 50px;
+
+      
+}
+.bestoffer1{
+    display: block;
+    margin-top: 12%;
+}
+    
+
+
+
+
+/* 
+.topdeal{
+      
+        background: linear-gradient(90deg, rgb(223, 33, 8) 0%, #a5a3a3 0) 50%/ 5em;
+        animation: blinds 1s ease-in-out infinite alternate;
+      }
+      
+      @keyframes blinds {
+        to {
+          background-image: linear-gradient(90deg, rgb(233, 22, 7) 100%, #e2dbdb 0);
+        }
+      
+
+    }   */
+
+.deals{
+    background-image: linear-gradient(to top, red,black);
+}
+
+
+    
+
+
+
+.contwhole{
+    margin-top: 8%;
+}
+.srh{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+.serh{
+    background-color: aliceblue;
+    color: green;
+}

@@ -1,0 +1,45 @@
+
+
+.footbg{
+    background-color: black;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+.grocers{
+    color: orangered;
+    font-weight: bold;
+}
+.navfull{
+      background-image:linear-gradient(to right, white,lightgreen,green)
+}
+.veg{
+    color: white;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+.veg:hover{
+    color: black;
+}
+.hom{
+    color: black;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.hom:hover{
+    color: green;
+}
+/* 
+font-family: "Baskervville SC", serif;
+font-weight: 900;
+font-style: normal; */
+
+.foothead1{
+    font-family: "Baskervville SC", serif;
+}
+.foothead2{
+    font-family: "Anton SC", sans-serif;
+}

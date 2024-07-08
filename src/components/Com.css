@@ -1,0 +1,95 @@
+.enterbtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 303px;
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-weight: 900;
+  
+
+ }
+.enterbtn span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+.enterbtn svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.enterbtn:hover svg {
+  transform: translateX(0);
+}
+
+.enterbtn:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d41515;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.enterbtn:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.cont{
+  text-align: center;
+  margin-top: 1%;
+}
+.contpara{
+ display: flex;
+ justify-content: center;
+ margin-top: 6%;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid green;
+}
+ .contdetails{
+  text-align: center;
+}
+.contbtn{
+  background-color: green;
+  color: white;
+  border-radius: .5rem;
+}
+
+.aboutpara{
+  font-family: "Anton SC", sans-serif;
+  font-size: larger;
+  margin-inline-start: 30%;
+  margin-inline-end: 30%;
+}
+.abg{
+
+  text-align: center;
+  font-family: "Ga Maamli", sans-serif;
+}
+.aboutside{
+  font-family: "Anton SC", sans-serif;
+}
